@@ -25,7 +25,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-    欢迎您：<s:property value="#session.su.uname"/>,<s:property value="#session.myinfo"/>
+    欢迎您：<s:property value="#session.su.uname"/>
     <s:url id="tonoreadnumaction" value="/getnoreadnum.action"></s:url> 
     <sx:div id="div2" href="%{tonoreadnumaction}" updateFreq="5000"></sx:div>
   </body>
